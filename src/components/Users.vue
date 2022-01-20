@@ -27,10 +27,10 @@ export default {
    data(){
        return{
          users:[
-             {id:1,name:"akshay",email:"akshay@gmai.com"},
-              {id:2,name:"Raj",email:"Raj@gmai.com"},
-               {id:3,name:"Satyam",email:"satyam@gmai.com"},
-                {id:4,name:"mohan",email:"mohan@gmai.com"}
+            {id:1,name:"akshay",email:"akshay@gmai.com"},
+            {id:2,name:"Raj",email:"Raj@gmai.com"},
+            {id:3,name:"Satyam",email:"satyam@gmai.com"},
+            {id:4,name:"mohan",email:"mohan@gmai.com"}
          ]
        }
    }

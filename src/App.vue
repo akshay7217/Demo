@@ -2,30 +2,40 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <!-- <home/>
-    
+    <home/>
+   <sign/>
 <users/>
-<styling/> -->
+<styling/> 
+<singup/>
 <databind/>
+<formv/>
+
 <Props v-bind:user="users"/>
   </div>
 </template>
-
 <script>
+// import FormValidation from './components/formv.vue';
 // import HelloWorld from './components/HelloWorld.vue'
 // import Home from './components/Home.vue'
 // import Users from './components/Users.vue'
 // import Styling from './components/Styling.vue'
-import Databind from './components/Databind.vue'
-import Props from './components/Props.vue'
+// import Databind from './components/Databind.vue'
+// import Props from './components/Props.vue'
+// import Singup from './components/Singup.vue'
+import Formv from './components/formv.vue'
+
+// import Sign from './components/Sign.vue'
 export default {
   name: 'App',
   components: {
     // Home,
     // Users,
     // Styling,
-    Databind,
-    Props
+    // Databind,
+    // Props,
+    // Singup,
+    Formv
+    // Sign
   },
   data(){
      return{

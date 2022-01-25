@@ -3,7 +3,7 @@
     <img alt="Vue logo" src="./assets/logo.png">
 
       <div>
-      <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <!-- <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item"><router-link to="/compo1" class="nav-link">Compo1</router-link></li>
@@ -12,11 +12,12 @@
           </ul>
         </div>
       </nav>
-   
-        <router-view class="view"></router-view>
+    -->
+        <!-- <router-view class="view"></router-view> -->
     </div>
  
-    <!-- <settings/> -->
+    <pagenotFound/>
+        <!-- <dyncom/> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <home/>
    <sign/>
@@ -26,12 +27,16 @@
 <databind/> -->
 <!-- <formv/>
 <empolyee/> -->
-<!-- <deletepost/> -->
+<deletepost/>
 <!-- <empolyee/> -->
 <!-- <Props v-bind:user="users"/> -->
+<formv/>
+<empolyee/> 
   </div>
 </template>
 <script>
+// import Dyncom from './components/Dyncom.vue';
+// npm run serve
 // import Settings from './components/Settings.vue';
 // import FormValidation from './components/formv.vue';
 // import HelloWorld from './components/HelloWorld.vue'
@@ -43,13 +48,15 @@
 // import Singup from './components/Singup.vue'
 // import Formv from './components/formv.vue'
 // import Empolyee from './components/Empolyee.vue'
-//  import Deletepost from './components/Deletepost.vue'
-// import Empolyee from './components/Empolyee.vue';
+ import Deletepost from './components/Deletepost.vue'
+import Empolyee from './components/Empolyee.vue';
 
 // import Sign from './components/Sign.vue'
 export default {
   name: 'App',
   components: {
+    // PagenotFound,
+    // Dyncom
     // Settings
     // Home,
     // Users,
@@ -57,10 +64,10 @@ export default {
     // Databind,
     // Props,
     // Singup,
-    // Formv
+    // Formv,
     // Sign
-    // Empolyee,
-  // Deletepost
+    Empolyee,
+  Deletepost
  
   },
 

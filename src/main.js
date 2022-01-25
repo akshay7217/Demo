@@ -27,13 +27,15 @@ Vue.use(VueRouter);
 import Compo1 from './components/Compo1.vue';
 import App from './App.vue'
 import Settings from './components/Settings.vue';
+import PagenotFound from './components/PagenotFound.vue';
 
 import Compo2 from './components/Compo2.vue';
 const router = new VueRouter({
   routes: [
     { path: '/Compo1', component: Compo1 },
     { path: '/Compo2', component: Compo2 },
-    { path: '/Settings', component: Settings }
+    { path: '/Settings', component: Settings },
+    { path: '*', component: PagenotFound }
   ]
 });
 Vue.config.productionTip = false

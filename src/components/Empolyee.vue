@@ -31,6 +31,7 @@ export default {
 Users(e){
   this.axios.post("http://localhost:3000/posts",this.users).then((response)=>{
       console.warn("response",response)
+      alert("users added")
 
   })
     e.preventDefault()

@@ -43,6 +43,7 @@ getUser(){
          this.axios.delete("http://localhost:3000/posts/"+id).then((response)=>{
       console.warn(response)
    this.getUser()
+   alert("Users deleted")
 
   })
     }

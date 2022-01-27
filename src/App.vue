@@ -32,6 +32,7 @@
 <!-- <Props v-bind:user="users"/> -->
 <formv/>
 <empolyee/> 
+<lgpage/> 
   </div>
 </template>
 <script>
@@ -48,8 +49,9 @@
 // import Singup from './components/Singup.vue'
 // import Formv from './components/formv.vue'
 // import Empolyee from './components/Empolyee.vue'
- import Deletepost from './components/Deletepost.vue'
-import Empolyee from './components/Empolyee.vue';
+//  import Deletepost from './components/Deletepost.vue'
+// import Empolyee from './components/Empolyee.vue';
+import Lgpage from './components/Lgpage.vue';
 
 // import Sign from './components/Sign.vue'
 export default {
@@ -66,8 +68,9 @@ export default {
     // Singup,
     // Formv,
     // Sign
-    Empolyee,
-  Deletepost
+  //   Empolyee,
+  // Deletepost,
+    Lgpage
  
   },
 
